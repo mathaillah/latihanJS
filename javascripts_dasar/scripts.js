@@ -1,0 +1,1 @@
+console.log(" Ini adalah Dasar JavaScript loaded external fiel");
