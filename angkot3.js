@@ -1,4 +1,4 @@
-var jmlAngkot =10;
+var jmlAngkot =100;
 var angkotBeroperasi = 7;
 
 for(var noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++ ) {
