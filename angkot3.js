@@ -1,9 +1,9 @@
 var jmlAngkot =10;
-var angkotBeroperasi = 6;
+var angkotBeroperasi = 7;
 
 for(var noAngkot = 1; noAngkot <= jmlAngkot; noAngkot++ ) {
     
-    if(noAngkot <= 6){
+    if(noAngkot <= 7){
         console.log('No Angkot ' + noAngkot + ' beroperasi dengan baik');
     } else {
         console.log('No Angkot ' + noAngkot + ' sedang tidak beroperasi');
