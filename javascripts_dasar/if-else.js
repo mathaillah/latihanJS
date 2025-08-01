@@ -1,6 +1,8 @@
 var angka = prompt("Masukkan angka: ");
 if (angka % 2 === 0) {
-    console.log(angka + " adalah bilangan genap.");
+    alert(angka + " adalah bilangan genap.");
+} else if (angka % 2 === 1) { 
+    alert(angka + " adalah bilangan ganjil.");
 } else {
-    console.log(angka + " adalah bilangan ganjil.");
+    alert('yang anda masukkan bukanlah angka');
 }   
