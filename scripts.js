@@ -11,4 +11,3 @@ volumeC = c*c*c;
 total = volumeA + volumeB; 
 
 console.log(total);
-//belajar tanggal 16/09/2025
