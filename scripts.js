@@ -1,13 +1,14 @@
-var a = 8;
-var b ;
-var volumeA;
-var volumeB;
-var volumeC;
-var totalVolume;
+function jumlahVolumeKubus(a, b) {
+    var volumeA;
+    var volumeB;
+  
+    var totalVolume;
 
-volumeA = a* a*a;
-volumeB = b* b*b;
-volumeC = c*c*c;
-total = volumeA + volumeB; 
+    volumeA = a * a * a;
+    volumeB = b * b * b;
 
-console.log(total);
+    total = volumeA + volumeB;
+
+    return total
+}
+alert(jumlahVolumeKubus(8, 3));
